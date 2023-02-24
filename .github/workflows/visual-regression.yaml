@@ -15,6 +15,6 @@ jobs:
       - name: Install Dependencies
         run: |
           yarn
-          yarn playwright Install
+          yarn playwright install
       - name: Run Visual Regression Tests
         uses: lost-pixel/lost-pixel@v3.1.0

@@ -30,7 +30,10 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
     "lost-pixel": "^3.1.0",
-    "playwright": "^1.31.1"
+    "playwright": "^1.31.1",
+    "react": "^18.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  }
 }

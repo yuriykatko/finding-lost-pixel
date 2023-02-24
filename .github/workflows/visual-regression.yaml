@@ -1,0 +1,20 @@
+name: Visual Regression Testing
+
+on:
+  workflow_dispatch:
+
+jobs:
+  visual-regression-test:
+    name: Visual Regression Testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Install Dependencies
+        run: |
+          yarn
+          yarn playwright Install
+      - name: Run Visual Regression Tests
+        uses: lost-pixel/lost-pixel@v3.1.0

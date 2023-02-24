@@ -28,7 +28,9 @@
     "@storybook/manager-webpack4": "^6.5.16",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.3.0"
+    "babel-loader": "^8.3.0",
+    "lost-pixel": "^3.1.0",
+    "playwright": "^1.31.1"
   },
   "dependencies": {}
 }
